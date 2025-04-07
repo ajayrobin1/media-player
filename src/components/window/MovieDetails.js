@@ -22,7 +22,7 @@ const MovieDetails = ({ movie, setVideoUrl, setNowPlaying }) => {
   };
 
   const handlePlay = () => {
-    setVideoUrl(`${ipAddress}/${infoHash}`)
+    setVideoUrl(`${ipAddress}/video/${infoHash}`)
     setNowPlaying(movieData)
   }
   
