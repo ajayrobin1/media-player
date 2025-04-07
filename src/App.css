@@ -1,0 +1,43 @@
+@media only screen and (max-width: 600px) {
+  svg {
+    width: 1.2em;
+    height: 1.2em;
+  
+  }
+
+  svg.large {
+    width: 2em;
+    height: 2em;
+  
+  }
+}
+
+.App{
+  position: absolute;
+  top:0;
+  bottom:0;
+}
+
+
+svg {
+  width: 1.4em;
+  height: 1.4em;
+
+}
+
+
+svg.large {
+  width: 3em;
+  height: 3em;
+
+}
+
+
+.scroll-forced{
+  overflow-y: auto !important;
+}
+
+img.logo {
+  -webkit-filter: drop-shadow(5px 5px 10px #000000);
+  filter: drop-shadow(5px 5px 10px #000000);
+}
